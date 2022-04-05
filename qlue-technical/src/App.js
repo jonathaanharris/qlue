@@ -2,8 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import data from "./data.json"
 import { useState } from "react"
+import { useNavigate } from "react-router-dom";
 
 function App() {
+  let navigate = useNavigate();
   let temp = data.data
   let manipulated = []
 
@@ -23,13 +25,16 @@ function App() {
     manipulated.push(obj)
   }
   const [user, setUser] = useState(manipulated)
-
+  const detailHandler = (el) => {
+    console.log(el)
+    navigate(`profile/${el}`)
+  }
 
   return (
     <div className="App">
       <div className='container'>
         {user.map(el => {
-          return <div key={el.id} className="card">
+          return <div key={el.id} className="card" onClick={() => detailHandler(el.full_name)}>
             <h3>{el.full_name}</h3>
             <div>Expert skills:</div>
             <div>

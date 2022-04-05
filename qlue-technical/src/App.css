@@ -50,3 +50,24 @@
   margin: 40px auto;
   background-color: cadetblue;
 }
+.containerDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardDetail {
+  background-color: rgb(223, 168, 86);
+  color: white;
+  border-radius: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  width: 50%;
+}
+
+.word {
+  text-align: justify;
+  margin: 20px;
+}
