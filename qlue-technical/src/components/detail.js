@@ -41,7 +41,7 @@ function Detail() {
       </ul>
       <div className="word">
 
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore impedit, eius nemo harum quisquam perspiciatis. Quos ut quo porro saepe enim reiciendis! Voluptates laborum, quos nemo illo nulla suscipit ipsum?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore impedit, eius nemo harum quisquam perspiciatis. Quos ut quo porro saepe enim reiciendis! Voluptates laborum, quos nemo illo nulla suscipit ipsumm?
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore impedit, eius nemo harum quisquam perspiciatis. Quos ut quo porro saepe enim reiciendis! Voluptates laborum, quos nemo illo nulla suscipit ipsum?
 
       </div>
