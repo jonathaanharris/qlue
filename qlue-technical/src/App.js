@@ -29,6 +29,9 @@ function App() {
     console.log(el)
     navigate(`profile/${el}`)
   }
+  const createHandler = () => {
+    navigate(`create`)
+  }
 
   return (
     <div className="App">
@@ -49,6 +52,7 @@ function App() {
           </div>
         })}
       </div>
+      <button style={{ "font-size": "3rem", "background-color": "black", color: "white", "borderRadius": "100%", width: "4rem", height: "4rem", }} onClick={createHandler}>+</button>
     </div>
   );
 }
